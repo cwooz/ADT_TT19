@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+// body {
+//   background: $dark-blue;
+//   font-size: $m-size;
+//   font-family: Poppins, Arial, sans-serif;
+// }
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700';
+body {
+  color: #e7e7fd;
+  background: #1B2431;
+  font-family: 'Poppins', sans-serif;
+}
+a:link, a:visited {
+  color: #e7e7fd;
+  text-decoration: none;
+}
+a:active, a:hover {
+  color: #5145ff;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
